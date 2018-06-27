@@ -1,0 +1,353 @@
+--- START ---
+
+--- ACTIVITY ---
+count      55385
+unique      6186
+top       828211
+freq          67
+Name: Unique_Advisor_Id, dtype: object
+
+count                   55385
+unique                     24
+top       2016-11-01 00:00:00
+freq                     4252
+first     2015-01-01 00:00:00
+last      2016-12-01 00:00:00
+Name: Month, dtype: object
+
+count     55385
+unique       21
+top          26
+freq      28153
+Name: Activity_Type, dtype: object
+
+count   55,385.0000
+mean         3.4765
+std          1.4622
+min          3.0000
+25%          3.0000
+50%          3.0000
+75%          3.0000
+max         27.0000
+Name: Activity_Count, dtype: float64
+
+
+--- AUM ---
+count     673600
+unique      4503
+top        33022
+freq        1431
+Name: Unique_Advisor_Id, dtype: object
+
+count     673600
+unique       481
+top        19233
+freq       25403
+Name: Unique_Investment_Id, dtype: object
+
+count                  673600
+unique                     12
+top       2016-09-01 00:00:00
+freq                    58334
+first     2016-01-01 00:00:00
+last      2016-12-01 00:00:00
+Name: Month, dtype: object
+
+count     673,600.0000
+mean        5,601.5331
+std        28,303.7511
+min             0.0000
+25%           190.0450
+50%           923.4806
+75%         3,504.3883
+max     2,110,101.8500
+Name: Shares, dtype: float64
+
+count      673,600.0000
+mean        92,839.6411
+std        521,678.7625
+min              0.0000
+25%          3,883.0257
+50%         16,454.6847
+75%         57,635.4516
+max     51,774,311.9167
+Name: AUM, dtype: float64
+
+
+--- INVEXP ---
+count     14208
+unique      592
+top        3452
+freq         24
+Name: Unique_Investment_Id, dtype: object
+
+count                   14208
+unique                     58
+top       US Fund Large Value
+freq                     1032
+Name: Morningstar Category, dtype: object
+
+count                   14208
+unique                     24
+top       2016-12-01 00:00:00
+freq                      592
+first     2015-01-01 00:00:00
+last      2016-12-01 00:00:00
+Name: Month, dtype: object
+
+count                                    14208
+unique                                     579
+top       Invesco Balanced-Risk Retire 2040 AX
+freq                                        48
+Name: Investment, dtype: object
+
+count   11,525.0000
+mean         2.8052
+std          1.0676
+min          1.0000
+25%          2.0000
+50%          3.0000
+75%          4.0000
+max          5.0000
+Name: Rating, dtype: float64
+
+count   13,624.0000
+mean        50.9458
+std         30.1220
+min          1.0000
+25%         25.0000
+50%         53.0000
+75%         78.0000
+max        100.0000
+Name: 1 Yr % Rank, dtype: float64
+
+count   11,525.0000
+mean        58.7668
+std         29.9491
+min          1.0000
+25%         33.0000
+50%         65.0000
+75%         87.0000
+max        100.0000
+Name: 3 Yr % Rank, dtype: float64
+
+count   9,941.0000
+mean       58.6877
+std        28.0454
+min         1.0000
+25%        35.0000
+50%        64.0000
+75%        84.0000
+max       100.0000
+Name: 5 Yr % Rank, dtype: float64
+
+count   5,992.0000
+mean       51.1816
+std        29.0445
+min         1.0000
+25%        27.0000
+50%        51.0000
+75%        79.0000
+max       100.0000
+Name: 10 Yr % Rank, dtype: float64
+
+count   13,624.0000
+mean         0.5483
+std          9.4375
+min        -42.1933
+25%         -4.3602
+50%          1.1963
+75%          6.0940
+max         92.8802
+Name: 1 Yr Return, dtype: float64
+
+count   11,521.0000
+mean         5.2483
+std          6.4074
+min        -31.0874
+25%          2.0456
+50%          4.7228
+75%          8.7974
+max         30.1208
+Name: 3 Yr Return, dtype: float64
+
+count   9,941.0000
+mean        6.6132
+std         5.3647
+min       -22.4469
+25%         4.0667
+50%         6.2880
+75%        10.1025
+max        23.3546
+Name: 5 Yr Return, dtype: float64
+
+count   5,992.0000
+mean        5.2183
+std         2.4406
+min        -5.5999
+25%         3.5947
+50%         5.2676
+75%         6.9653
+max        12.8737
+Name: 10 Yr Return, dtype: float64
+
+count   11,923.0000
+mean        -2.4839
+std          7.9070
+min        -53.1099
+25%         -5.7754
+50%         -1.6436
+75%          1.0461
+max         87.2663
+Name: 1 Yr Excess Return vs Primary Ix, dtype: float64
+
+count   10,019.0000
+mean        -2.8673
+std          5.5891
+min        -45.1791
+25%         -4.9259
+50%         -1.5633
+75%          0.2705
+max         15.0491
+Name: 3 Yr Excess Return vs Primary Ix, dtype: float64
+
+count   8,665.0000
+mean       -2.5769
+std         4.9714
+min       -35.8786
+25%        -4.2082
+50%        -1.5787
+75%         0.0139
+max        11.6117
+Name: 5 Yr Excess Return vs Primary Ix, dtype: float64
+
+count   5,968.0000
+mean       -0.7688
+std         2.2024
+min       -12.0829
+25%        -1.6810
+50%        -0.5961
+75%         0.3495
+max         5.2943
+Name: 10 Yr Excess Return vs Primary Ix, dtype: float64
+
+count   13,624.0000
+mean        -1.1275
+std          5.6609
+min        -25.5784
+25%         -3.3779
+50%         -0.9443
+75%          0.9895
+max         81.4109
+Name: 1 Yr Excess Return vs Category Ix, dtype: float64
+
+count   11,521.0000
+mean        -1.6681
+std          3.1284
+min        -14.1446
+25%         -3.5876
+50%         -1.2613
+75%          0.2809
+max         13.3170
+Name: 3 Yr Excess Return vs Category Ix, dtype: float64
+
+count   9,941.0000
+mean       -1.4169
+std         2.4018
+min       -11.7960
+25%        -2.8519
+50%        -1.2447
+75%         0.0582
+max         7.2251
+Name: 5 Yr Excess Return vs Category Ix, dtype: float64
+
+count   5,992.0000
+mean       -0.6511
+std         1.6828
+min        -5.7666
+25%        -1.7133
+50%        -0.6893
+75%         0.3224
+max         5.2246
+Name: 10 Yr Excess Return vs Category Ix, dtype: float64
+
+count            14,208.0000
+mean        -63,779,749.2978
+std       2,481,486,113.6010
+min     -12,975,831,125.0000
+25%        -715,322,829.0000
+50%         -47,871,339.0000
+75%         302,705,533.0000
+max      18,942,287,577.0000
+Name: Net Flows, dtype: float64
+
+
+--- TXN ---
+count     163722
+unique      4534
+top       730833
+freq         964
+Name: Unique_Advisor_Id, dtype: object
+
+count     163722
+unique        23
+top         4021
+freq       90214
+Name: Unique_Investment_Id, dtype: object
+
+count                  163722
+unique                     12
+top       2016-09-01 00:00:00
+freq                    15481
+first     2016-01-01 00:00:00
+last      2016-12-01 00:00:00
+Name: Month, dtype: object
+
+count     163722
+unique         2
+top            R
+freq       95269
+Name: Transaction_Type, dtype: object
+
+count     163722
+unique        39
+top            3
+freq       72859
+Name: Code_1, dtype: object
+
+count     163722
+unique        51
+top           22
+freq       48093
+Name: Code_2, dtype: object
+
+count     163722
+unique         4
+top            1
+freq      160285
+Name: Code_3, dtype: object
+
+count     163722
+unique        33
+top           26
+freq       48997
+Name: Code_4, dtype: object
+
+count     163722
+unique         4
+top            1
+freq       78579
+Name: Code_5, dtype: object
+
+count       163,722.0000
+mean         -1,903.4908
+std         147,890.0525
+min     -33,746,218.4278
+25%          -2,000.0000
+50%             -66.6667
+75%             447.0733
+max       9,200,000.0000
+Name: Amount, dtype: float64
+
+
+--- END ---
